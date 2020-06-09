@@ -396,6 +396,8 @@ section.s4 {
     background-color: #1A1925;
     text-align: center;
     position: relative;
+    padding: 60px 60px 0 60px;
+    height: 80vh;
 }
 
 section.s4 p,
@@ -456,6 +458,89 @@ section.s6 {
     top: 3%;
     opacity: 1;
     animation: spadek 1s linear infinite;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #e2bd78;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+    transform: translateX(-50%);
+    transition: 0.2s linear;
+}
+
+input[type=submit]:hover {
+    background-color: #bd9e65;
+    font-size: 15px;
+}
+
+.s4 h1 {
+    font-size: 60px;
+    color: #c1a57b;
+    font-family: 'Poppins', sans-serif;
+}
+
+.s4 h2 {
+    font-size: 30px;
+    color: #c1a57b;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+}
+
+h2.mess {
+    font-size: 25px;
+    color: #c1a57b;
+    margin-top: 50px;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.158);
+    padding: 20px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.container label {
+    color: #c1a57b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.displayNone {
+    display: none;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    height: 2vh;
+}
+
+footer span {
+    font-family: 'arimo';
+    color: white;
 }
 
 @keyframes spadek {

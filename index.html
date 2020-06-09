@@ -32,15 +32,15 @@
                 </li>
                 <li><a class="s4" href="#">Sekcja 4</a>
                 </li>
-                <li><a class="s5" href="#">Sekcja 5</a>
+                <li><a class="s5" href="#">TBA</a>
                 </li>
-                <li><a class="s6" href="#">Sekcja 6</a></li>
+                <li><a class="s6" href="#">TBA</a></li>
             </ul>
         </div>
         <div class="pasek">
             <div class="currentNumber"><span>01</span></div>
             <div class="poziom"></div>
-            <div class="maxNumber"><span>06</span></div>
+            <div class="maxNumber"><span>04</span></div>
         </div>
         <div class="menuHolder">
             <div class="name">
@@ -148,14 +148,36 @@
             </div>
         </section>
         <section id="s4" class="s4">
-            <p>Sekcja 4</p>
+            <h1>Jakieś pytania?</h1>
+            <h2> Zapraszam do kontaktu!</h2>
+            <div class="container">
+                <form action="action_page.php">
+
+                    <label for="fname">Imie</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Imię">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="E-Mail">
+
+                    <label for="message">Zostaw wiadomość!</label>
+                    <textarea id="message" name="message" placeholder="Write something.."
+                        style="height:100px"></textarea>
+                    <input type="submit" value="Submit">
+
+                </form>
+
+            </div>
+            <h2 class="mess">Odpowiadam najszybciej jak potrafie, czyli do jutra na pewno dostaniesz odpowiedź!</h2>
         </section>
-        <section id="s5" class="s5">
+        <section id="s5" class="s5 displayNone">
             <p>Sekcja 5</p>
         </section>
-        <section id="s6" class="s6">
+        <section id="s6" class="s6 displayNone">
             <p>Sekcja 6</p>
         </section>
+        <footer>
+            <span>Copyright ® All rights reserved 2020 Marcin Szaro marcinszaro@gmail.com</span>
+        </footer>
     </div>
     <script src="scripts/jquery-3.3.1.min.js"></script>
     <script src="scripts/scripts.js"></script>
