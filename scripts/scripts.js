@@ -29,20 +29,20 @@ function changeText() {
         menu[3].classList.add("active");
         menu[2].classList.remove("active");
         menu[4].classList.remove("active");
-        document.querySelector('section.s4 p').classList.add("on");
+        //document.querySelector('section.s4 p').classList.add("on");
     } else if (scrVal < 5 * sectionHeight - 200) {
         bigNumber.textContent = "05";
         smallNumber.textContent = "05";
         menu[4].classList.add("active");
         menu[3].classList.remove("active");
         menu[5].classList.remove("active");
-        document.querySelector('section.s5 p').classList.add("on");
+        //document.querySelector('section.s5 p').classList.add("on");
     } else {
         bigNumber.textContent = "06";
         smallNumber.textContent = "06";
         menu[5].classList.add("active");
         menu[4].classList.remove("active");
-        document.querySelector('section.s6 p').classList.add("on");
+        //document.querySelector('section.s6 p').classList.add("on");
     }
 }
 
