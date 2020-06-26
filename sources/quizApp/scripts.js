@@ -10,7 +10,7 @@ const numberOfItems = 7;
 const answers = [{
         img: 'img/car.jpeg',
         name: 'Samochód',
-        date: 1866
+        date: 1886
     },
     {
         img: 'img/soccer.jpg',
