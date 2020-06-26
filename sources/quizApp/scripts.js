@@ -44,13 +44,6 @@ const answers = [{
     }
 
 ];
-// // answers[1].img;
-// answers[1].img;
-
-const images = ['img/car.jpeg', 'img/soccer.jpg', 'img/plane.jpg', 'img/aparat.jpg', 'img/basketball.jpeg', 'img/moto.jpg', 'img/hockey.jpg'];
-const names = ['Samochód', 'Piłka Nożna', 'Samolot', 'Fotografia', 'Koszykówka', 'Motocykl', 'Hokej'];
-const dates = [1886, 1886, 1903, 1839, 1891, 1885, 1872];
-
 const leftImage = document.querySelector('.left img');
 const rightImage = document.querySelector('.right img');
 
