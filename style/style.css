@@ -6,6 +6,7 @@
 video {
     position: absolute;
     opacity: 0.1;
+    height: 100%;
     width: 100%;
 }
 
@@ -20,6 +21,30 @@ section {
     position: fixed;
     color: white;
     font-family: 'Poppins', sans-serif;
+}
+
+.building {
+    position: fixed;
+    height: 40px;
+    z-index: 100;
+    background-color: rgba(39, 38, 58, 0.4);
+    text-align: center;
+    width: 100%;
+}
+
+.building p {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    transform: translateX(-10%);
+}
+
+.fa-times {
+    position: absolute;
+    top: 10px;
+    color: white;
+    font-size: 25px;
+    right: 20%;
 }
 
 .slider {
@@ -314,22 +339,22 @@ section.pictures {
 }
 
 .pic1 {
-    background-image: url(../sources/quizApp/img/preview.png);
-    background-size: 190%;
+    background-image: url(../img/miniQuiz.png);
+    background-size: 136%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .pic2 {
-    background-image: url(../sources/ProjektKomplet/images/preview.png);
-    background-size: 170%;
+    background-image: url(../img/weatherMini.png);
+    background-size: 136%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .pic3 {
     background-image: url(../sources/OldJapan/img/preview.png);
-    background-size: 170%;
+    background-size: 150%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -342,7 +367,7 @@ section.pictures {
 }
 
 .pic5 {
-    background-image: url(../img/preview.jpg);
+    background-image: url(../sources/ProjektKomplet/images/preview.png);
     background-size: 170%;
     background-repeat: no-repeat;
     background-position: center;

@@ -28,34 +28,23 @@ function changeText() {
         smallNumber.textContent = "04";
         menu[3].classList.add("active");
         menu[2].classList.remove("active");
-        menu[4].classList.remove("active");
-        document.querySelector('section.s4 p').classList.add("on");
-    } else if (scrVal < 5 * sectionHeight - 200) {
-        bigNumber.textContent = "05";
-        smallNumber.textContent = "05";
-        menu[4].classList.add("active");
-        menu[3].classList.remove("active");
-        menu[5].classList.remove("active");
-        document.querySelector('section.s5 p').classList.add("on");
-    } else {
-        bigNumber.textContent = "06";
-        smallNumber.textContent = "06";
-        menu[5].classList.add("active");
-        menu[4].classList.remove("active");
-        document.querySelector('section.s6 p').classList.add("on");
     }
 }
 
 const burger = document.querySelector(".fa-bars");
-const iks = document.querySelector(".fa-times");
+const iks = document.querySelector("section.menu .fa-times");
 const slider = document.querySelector(".slider");
+const times = document.querySelector(".building .fa-times");
+console.log(times);
 
 function slide() {
     burger.classList.toggle("off");
     iks.classList.toggle("off");
     slider.classList.toggle("sliderOn");
 }
-
+times.addEventListener("click", function () {
+    document.querySelector(".building").remove();
+})
 burger.addEventListener("click", function () {
     slide();
 })
