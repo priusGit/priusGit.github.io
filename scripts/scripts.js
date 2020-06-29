@@ -35,7 +35,7 @@ const burger = document.querySelector(".fa-bars");
 const iks = document.querySelector("section.menu .fa-times");
 const slider = document.querySelector(".slider");
 const times = document.querySelector(".building .fa-times");
-console.log(times);
+console.log("git hub pages zacznij działać");
 
 function slide() {
     burger.classList.toggle("off");
