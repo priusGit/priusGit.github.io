@@ -45,6 +45,8 @@ section {
     color: white;
     font-size: 25px;
     right: 20%;
+    display: block;
+    width: 40px;
 }
 
 .slider {
@@ -177,7 +179,8 @@ ul a {
     cursor: default;
 }
 
-.fas {
+.fa-bars,
+.menu .fa-times {
     z-index: 5;
     font-size: 40px;
     position: absolute;
@@ -566,6 +569,10 @@ footer {
 footer span {
     font-family: 'arimo';
     color: white;
+}
+
+.fa-arrow-left {
+    display: none;
 }
 
 @keyframes spadek {

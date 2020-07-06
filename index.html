@@ -3,25 +3,32 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Marcin Szaro - CV</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,800&display=swap&subset=latin-ext"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700&display=swap&subset=latin-ext"
         rel="stylesheet">
-    <link rel="stylesheet" href="./style/style.css">
     <script src="https://kit.fontawesome.com/73d28675cc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style.css">
 
 </head>
 
 <body>
+    <div class="building">
+        <p>Strona w budowie, uwaga na zwisające z sufitu kable i dziury w podłodze</p>
+        <i class="fa fa-times"></i>
+    </div>
     <section class="menu">
+
         <div class="mouse">
             <i class="fas fa-circle"></i>
         </div>
-        <i class="fas fa-bars"></i>
+
+        <i class="fas fa-bars "></i>
         <i class="fas fa-times off"></i>
         <div class="slider">
+            <i class="fas fa-arrow-left"></i>
             <ul>
                 <li><a class="baner" href="#">Strona Główna</a>
 
@@ -57,14 +64,12 @@
                 <span class="colored">telefon</span>
                 <p>(+48) 881 948 982</p>
             </div>
+
         </div>
         <div class="bigNumber">01</div>
     </section>
     <div class="content">
-        <div class="building">
-            <p>Strona w budowie, uwaga na zwisające z sufitu kable i dziury w podłodze</p>
-            <i class="fa fa-times"></i>
-        </div>
+
         <section id="baner" class="baner">
             <video autoplay muted loop id="myVideo">
                 <source src="img/backvideo.mp4" type="video/mp4">
@@ -154,10 +159,10 @@
             <h1>Jakieś pytania?</h1>
             <h2> Zapraszam do kontaktu!</h2>
             <div class="container">
-                <form action="#">
+                <form class="contactForm" action="contactform.php" method="POST">
 
-                    <label for="fname">Imie</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Imię">
+                    <label for="name">Imie</label>
+                    <input type="text" id="name" name="firstname" placeholder="Imię">
 
                     <label for="email">Email</label>
                     <input type="text" id="email" name="email" placeholder="E-Mail">
