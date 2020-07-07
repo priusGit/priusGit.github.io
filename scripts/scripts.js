@@ -32,9 +32,9 @@ function changeText() {
 }
 
 const burger = document.querySelector(".fa-bars");
-const iks = document.querySelector("section.menu .fa-times");
+const iks = document.querySelector(".menuCloser");
 const slider = document.querySelector(".slider");
-const times = document.querySelector(".building .fa-times");
+const times = document.querySelector(".closer");
 
 function slide() {
     burger.classList.toggle("off");
@@ -43,6 +43,7 @@ function slide() {
 }
 times.addEventListener("click", function () {
     document.querySelector(".building").remove();
+    times.remove();
 })
 burger.addEventListener("click", function () {
     slide();
